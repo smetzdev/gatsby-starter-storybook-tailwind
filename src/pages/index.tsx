@@ -5,10 +5,10 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <article className="p-5">
-      <h1 className="text-3xl">Iam a Headline</h1>
-      <p className="text-lg text-indigo-500">
-        Iam some Text... happy hacking with{" "}
+    <article className="p-5 container">
+      <h1 className="md:text-2xl">Hello there!</h1>
+      <p className="text-lg text-gray-700">
+        Happy hacking with{" "}
         <a
           className="underline"
           target="_blank"
