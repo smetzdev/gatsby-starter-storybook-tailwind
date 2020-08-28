@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "allowJs": false,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@images/*": ["./src/images/*"],
+      "@styles/*": ["./src/css/*"],
+      "@customDecorators": ["./src/stories/custom-decorators"]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "presets": ["babel-preset-gatsby"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "@images": "./src/images",
+          "@utils": "./src/utils",
+          "@customDecorators": "./src/stories/custom-decorators",
+          "@styles": "./src/css"
+        }
+      }
+    ]
+  ]
+}
