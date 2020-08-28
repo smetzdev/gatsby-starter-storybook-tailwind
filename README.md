@@ -1,11 +1,10 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Gatsby Starter Storybook and Tailwind
 </h1>
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
@@ -20,7 +19,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```shell
     # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    gatsby new my-starter https://github.com/smetzdev/gatsby-starter-storybook-tailwind
     ```
 
 1.  **Start developing.**
@@ -40,6 +39,16 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
+1.  **Start developing with Storybook.**
+
+    ```shell
+    yarn storybook
+    ```
+
+1.  **Open the source code and start editing!**
+
+    Your site is now running at `http://localhost:6006`!
+
 ## 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
@@ -56,6 +65,10 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── LICENSE
     ├── package-lock.json
     ├── package.json
+    ├── designtokens.js
+    ├── .babelrc
+    ├── .tailwind-config.js
+    ├── tsconfig.json
     └── README.md
 
 1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
@@ -82,6 +95,12 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 12. **`README.md`**: A text file containing useful reference information about your project.
 
+13. **`designtokens.js`**: This file contains js objects represinting style-measures used in your project
+
+14. **`.babelrc`** This file contains custom babel configuration and your config for [babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver)
+
+15. **`tsconfig.js`** This file contains Typescript configuration and your vs-code config for [babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver)
+
 ## 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
@@ -90,10 +109,10 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-## 💫 Deploy
+## 🎓 Learning Storybook
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Looking for more guidance? Full documentation for Storybook lives [on the website](https://storybook.js.org/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
+## 🎓 Learning Tailwind
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+Looking for more guidance? Full documentation for Tailwind lives [on the website](https://tailwindcss.com/)
