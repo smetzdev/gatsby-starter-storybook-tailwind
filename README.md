@@ -67,7 +67,8 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── package.json
     ├── designtokens.js
     ├── .babelrc
-    ├── .tailwind-config.js
+    ├── tailwind-config.js
+    ├── postcss-config.js
     ├── tsconfig.json
     └── README.md
 
@@ -100,6 +101,10 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 14. **`.babelrc`** This file contains custom babel configuration and your config for [babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver)
 
 15. **`tsconfig.js`** This file contains Typescript configuration and your vs-code config for [babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver)
+
+16. **`postcss.config.js`** This file contains PostCSS configuration
+
+16. **`tailwind.config.js`** This file contains Tailwind configuration
 
 ## 🎓 Learning Gatsby
 
