@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "A simple starter to get up and developing quickly with Gatsby, Storybook and Tailwind",  
+  "version": "1.0.0",
+  "author": "Sascha Metz <@smetzdev>",
   "dependencies": {
     "autoprefixer": "^9.8.6",
     "gatsby": "^2.24.50",
@@ -36,7 +36,10 @@
     "react-is": "^16.13.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "gatsby-starter",
+    "storybook",
+    "tailwind"
   ],
   "license": "0BSD",
   "scripts": {
@@ -52,9 +55,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/smetzdev/gatsby-starter-storybook-tailwind"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/smetzdev/gatsby-starter-storybook-tailwind/issues"
   }
 }
