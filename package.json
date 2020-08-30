@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby, Storybook and Tailwind",  
+  "description": "A simple starter to get up and developing quickly with Gatsby, Storybook and Tailwind",
   "version": "1.0.0",
   "author": "Sascha Metz <@smetzdev>",
   "dependencies": {
@@ -32,6 +32,7 @@
     "@storybook/react": "^6.0.20",
     "babel-loader": "^8.1.0",
     "babel-plugin-module-resolver": "^4.0.0",
+    "babel-preset-react-app": "^9.1.2",
     "prettier": "2.1.0",
     "react-is": "^16.13.1"
   },
