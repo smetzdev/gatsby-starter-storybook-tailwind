@@ -7,6 +7,8 @@
   Gatsby Starter Storybook and Tailwind
 </h1>
 
+> **Note**: Static Queries are currently not working inside Storybook. To fix this issue, we've (temporarly) added the "copy-static-queries" and "prestorybook" inside the package.json. Also the NODE_ENV for storybook is set to test.
+
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
@@ -104,7 +106,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 16. **`postcss.config.js`** This file contains PostCSS configuration
 
-16. **`tailwind.config.js`** This file contains Tailwind configuration
+17. **`tailwind.config.js`** This file contains Tailwind configuration
 
 ## 🎓 Learning Gatsby
 

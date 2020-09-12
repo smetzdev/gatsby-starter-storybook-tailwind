@@ -51,8 +51,10 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "storybook": "NODE_ENV=production start-storybook -p 6006",
-    "build-storybook": "NODE_ENV=production build-storybook"
+    "copy-static-queries": "cp -r ./public/page-data/sq/d ./public/static",
+    "prestorybook": "npm run copy-static-queries",
+    "storybook": "NODE_ENV=test start-storybook -p 6006",    
+    "build-storybook": "NODE_ENV=test build-storybook"
   },
   "repository": {
     "type": "git",
